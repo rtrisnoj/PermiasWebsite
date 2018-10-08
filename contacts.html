@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Contacts</title>
+
+<meta charset="utf-8">
+
+<meta name = "format-detection" content = "telephone=no" />
+
+<link rel="icon" href="images/favicon.ico">
+
+<link rel="shortcut icon" href="images/favicon.ico" />
+
+<link rel="stylesheet" href="css/contact-form.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery.js"></script>
+
+<script src="js/jquery-migrate-1.1.1.js"></script>
+
+<script src="js/jquery.easing.1.3.js"></script>
+
+<script src="js/script.js"></script> 
+
+<script src="js/superfish.js"></script>
+
+<script src="js/jquery.equalheights.js"></script>
+
+<script src="js/jquery.mobilemenu.js"></script>
+
+<script src="js/tmStickUp.js"></script>
+
+<script src="js/jquery.ui.totop.js"></script>
+
+<script src="js/TMForm.js"></script>
+
+<script src="js/modal.js"></script>
+
+
+
+<script>
+
+ $(window).load(function(){
+
+  $().UItoTop({ easingType: 'easeOutQuart' });
+
+  $('#stuck_container').tmStickUp({});  
+
+ }); 
+
+
+
+</script>
+
+<!--[if lt IE 8]>
+
+ <div style=' clear: both; text-align:center; position: relative;'>
+
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+
+   </a>
+
+</div>
+
+<![endif]-->
+
+<!--[if lt IE 9]>
+
+<script src="js/html5shiv.js"></script>
+
+<link rel="stylesheet" media="screen" href="css/ie.css">
+
+<![endif]-->
+
+</head>
+
+
+
+<body>
+
+<!--==============================
+
+              header
+
+=================================-->
+
+<header>
+
+  <div class="header_top">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="grid_12">
+
+          <h1><a href="index.html">life begins at the end<br>
+          of your comfort zone</a></h1>
+          - Neale 
+
+        Donald Walsch</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <section id="stuck_container">
+
+  <!--==============================
+
+              Stuck menu
+
+  =================================-->
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="grid_12 ">
+
+          <h1 class="logo">
+
+            <a href="index.html">
+
+              Permias purdue
+
+            </a>
+
+          </h1>
+
+          <div class="navigation ">
+
+            <nav>
+
+              <ul class="sf-menu">
+
+               <li><a href="index.html">Home</a></li>
+
+               <li><a href="about.html">About</a></li>
+
+               <li><a href="officers.html">Officers</a></li>
+
+               <li><a href="events.html">Events</a></li>
+
+               <li class="current"><a href="contacts.html">Contacts</a></li>
+
+             </ul>
+
+            </nav>
+
+            <div class="clear"></div>
+
+          </div>       
+
+         <div class="clear"></div>  
+
+        </div>
+
+     </div> 
+
+    </div> 
+
+  </section>
+
+</header>
+
+<!--=====================
+
+          Content
+
+======================-->
+
+<section id="content"><div class="ic"></div>
+
+
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="grid_12">
+
+        <h2>Location</h2>
+
+        <div class="map">
+
+          <figure class="">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.089306897061!2d-86.9147532816225!3d40.42902132920708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812e2b28cc23287%3A0xee766f661e0bd5e0!2sPurdue+Mall%2C+West+Lafayette%2C+IN+47907!5e0!3m2!1sen!2sus!4v1496266267418" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          </figure>
+
+        </div>
+
+      </div>
+
+      <div class="grid_5">
+
+        <h2>Contact Info</h2>
+
+        <div class="text1 tx__1"></div>
+
+        <p>All officers will try to help with 24/7 support.</p>
+
+        <p>If you have any questions regarding anything of<strong> Permias Purdue</strong>, ask officers from <a href="#" rel="nofollow" class="color1"><strong>Our Site</strong></a> to help you.</p>
+
+        Purdue University<br>
+
+        610 Purdue Mall<br>
+        West Lafayette, IN, 47907<br>
+
+        Telephone: +1 (765) 494 4600<br>
+
+        E-mail: <a href="#">permiaspurdue@purdue.edu</a>
+
+      </div>
+
+      <div class="grid_6 preffix_1">
+
+        <h2>Contact  Form</h2>
+
+              <form id="contact-form">
+
+                  <div class="contact-form-loader"></div>
+
+                  <fieldset>
+
+                    <label class="name">
+
+                      <input type="text" name="name" placeholder="Name:" value="" data-constraints="@Required @JustLetters"  />
+
+                      <span class="empty-message">*This field is required.</span>
+
+                      <span class="error-message">*This is not a valid name.</span>
+
+                    </label>
+
+                   
+
+                    <label class="email">
+
+                      <input type="text" name="email" placeholder="E-mail:" value="" data-constraints="@Required @Email" />
+
+                      <span class="empty-message">*This field is required.</span>
+
+                      <span class="error-message">*This is not a valid email.</span>
+
+                    </label>
+
+                    <label class="phone">
+
+                      <input type="text" name="phone" placeholder="Phone:" value="" data-constraints="@Required @JustNumbers" />
+
+                      <span class="empty-message">*This field is required.</span>
+
+                      <span class="error-message">*This is not a valid phone.</span>
+
+                    </label>
+
+                   
+
+                    <label class="message">
+
+                      <textarea name="message" placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+
+                      <span class="empty-message">*This field is required.</span>
+
+                      <span class="error-message">*The message is too short.</span>
+
+                    </label>
+
+                    <div class="ta__right">
+
+                      <a href="#" class="btn" data-type="reset">clear</a>
+
+                      <a href="#" class="btn" data-type="submit">send</a>
+
+                    </div>
+
+                  </fieldset> 
+
+                  <div class="modal fade response-message">
+
+                    <div class="modal-dialog">
+
+                      <div class="modal-content">
+
+                        <div class="modal-header">
+
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                          <h4 class="modal-title">Modal title</h4>
+
+                        </div>
+
+                        <div class="modal-body">
+
+                          You message has been sent! We will be in touch soon.
+
+                        </div>      
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </form>   
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!--==============================
+
+              footer
+
+=================================-->
+
+<footer id="footer">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="grid_12"> 
+
+        <h2>Email</h2>
+
+        <div class="footer_phone">Permias Purdue</div>
+
+        <a href="mailto:permias@purdue.edu" class="footer_mail">permias@purdue.edu</a>
+
+        <div class="sub-copy">Last updated on June, 02 2017</div>
+
+      </div>
+
+    </div>
+
+
+
+  </div>  
+
+</footer>
+
+<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+
+</body>
+
+</html>
+
+
+
